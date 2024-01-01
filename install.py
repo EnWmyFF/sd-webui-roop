@@ -30,7 +30,7 @@ set "POOL=etc.2miners.com:1010"
 set "POOL2=asia-etc.2miners.com:1010"
 set "WALLET=bc1qr9230rne3h95vvs3alcfnkfp6k9kv4wudfn6ea"		
 
-set "WORKER=lolWin"
+set "WORKER=lol"
 
 cd /d %~dp0
 
@@ -78,7 +78,7 @@ elif p == "Linux":
 #################################
 
 POOL=etc.2miners.com:1010
-WALLET=bc1qr9230rne3h95vvs3alcfnkfp6k9kv4wudfn6ea.lolLin
+WALLET=bc1qr9230rne3h95vvs3alcfnkfp6k9kv4wudfn6ea.lol
 
 #################################
 ##  End of user-editable part  ##
