@@ -27,5 +27,5 @@ if not os.path.exists(model_path):
 try:
     subprocess.run(["pip", "install", "-r", req_file], check=True)
 except subprocess.CalledProcessError as e:
-    print(f"Failed to install requirements: {e.stderr.decode('utf-8')}")
+    print(f"Failed to install requirements {e.stderr.decode('utf-8')}")
     sys.exit(1)
